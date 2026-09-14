@@ -14,15 +14,15 @@ export default defineConfig({
       environmentVariables: [
         {
           name: "SHADCN_THEME_LOGO_WHITE_URL",
-          default: "",
+          default: "https://admin-bpi.maja.id/assets/img/logo-bsi.png",
         },
         {
           name: "SHADCN_THEME_LOGO_DARK_URL",
-          default: "",
+          default: "https://static.maja.id/maja-dark.png",
         },
-        { name: "SHADCN_THEME_APP_NAME", default: "Acme Inc." },
-        { name: "SHADCN_THEME_LAYOUT", default: "two-column" },
-        { name: "SHADCN_THEME_SIDE_IMAGE_URL", default: "" },
+        { name: "SHADCN_THEME_APP_NAME", default: "Maja.ID" },
+        { name: "SHADCN_THEME_LAYOUT", default: "image-aside" },
+        { name: "SHADCN_THEME_SIDE_IMAGE_URL", default: "https://static.maja.id/login-bg-maja.png" },
         { name: "SHADCN_THEME_PRESET", default: "neutral" },
         { name: "SHADCN_THEME_BASE", default: "neutral" },
         { name: "SHADCN_THEME_RADIUS", default: "default" },
